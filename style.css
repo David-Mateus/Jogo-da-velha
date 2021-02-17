@@ -1,0 +1,53 @@
+body{
+  text-align: center;
+  background-image: url("foto1.jpg");
+}
+h1{
+  font-size: 3em;
+  font-family: 'Press Start 2P', cursive;
+  color:rgb(207, 204, 204);
+}
+.quadrado{
+  text-align: center;
+  width: 50px;
+  background-color: red;
+  background-image: linear-gradient(rgb(255, 0, 0), rgb(245, 217, 57));
+  display: inline-block;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color:transparent;
+}
+.quadrado:hover{
+  box-shadow: 0 0 50px white;
+}
+.jogador{
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: 'Press Start 2P', cursive;
+  color:rgb(207, 204, 204);
+
+}
+.vencedor{
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(207, 204, 204);
+}
+button{
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 1em;
+
+  width: 120px;
+  height: 40px;
+
+  color: white;
+  background: #ffa500;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 0 0 15px orangered;
+}
